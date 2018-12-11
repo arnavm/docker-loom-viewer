@@ -8,3 +8,5 @@ mkdir $LOCAL_LOOM_DIR
 # (copy .loom files to $LOCAL_LOOM_DIR)
 docker run loom-viewer -p 8003:8003 -v $LOCAL_LOOM_DIR:/looms
 ```
+
+Visit the [loom-viewer](https://github.com/linnarsson-lab/loom-viewer) GitHub page for specific usage information.
